@@ -1,0 +1,67 @@
+/* colors pallet */
+:root {
+    --dark-blue: #0A2463;
+    --gold: #DAA520;
+    --light-gray: #F5F5F5;
+    --white: #FFFFFF;
+    --teal: #008080;
+}
+
+/* body style */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0.5rem;
+    transition: all .3s ease-in;
+    position: relative;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(6%) sepia(1%) saturate(2%) hue-rotate(15deg) brightness(100%) contrast(106%);
+}
+
+.offcanvas {
+    background-color: var(--white);
+    color: var(--dark-blue);
+    transition: transform 0.4s ease-in-out;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid var(--dark-blue);
+    padding: 1.5rem 1rem 1rem;
+}
+
+.offcanvas-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-close {
+    filter: brightness(1);
+    opacity: 1;
+    transition: all .3s ease-out;
+}
+
+.btn-close:hover {
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+.offcanvas-body {
+    padding: 1rem 1.5rem;
+}
+
+/* hero section */
