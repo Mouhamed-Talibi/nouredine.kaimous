@@ -2,7 +2,7 @@
 :root {
     --dark-blue: #0A2463;
     --gold: #DAA520;
-    --light-gray: #F5F5F5;
+    --light-gray: #eceaea;
     --white: #FFFFFF;
     --teal: #008080;
 }
@@ -89,6 +89,19 @@ body {
 .hero-image img {
     width: 300px;
     height: 300px;
+}
+
+.hero-text {
+    background-color: var(--light-gray);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero-text h1 span {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 @media (min-width: 300px) and (max-width: 568px) {
