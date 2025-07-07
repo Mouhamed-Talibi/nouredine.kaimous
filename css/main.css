@@ -109,3 +109,16 @@ body {
         margin-top: 20px;
     }
 }
+
+.infos .info span {
+    background-color: var(--gold);
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+.infos .info span:hover {
+    background-color: var(--dark-blue);
+    color: var(--gold);
+    transition: .4s all ease;
+}
