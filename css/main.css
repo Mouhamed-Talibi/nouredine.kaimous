@@ -132,7 +132,7 @@ body {
     }
 
     .main-title p {
-        margin-top: -40px;
+        margin-top: -48px;
         font-size: 20px;
     }
 }
@@ -164,4 +164,26 @@ body {
         font-size: 16px;
         color: var(--dark-blue);
     }
+}
+
+.services .service {
+    background-color: var(--dark-blue);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--white);
+}
+
+.services .service h3 {
+    color: var(--gold);
+}
+
+.services .service:hover {
+    transform: translateY(-2px);
+    transition: all .4s ease;
+    border: 1px solid var(--gold);
+}
+
+.services .service:hover h3 {
+    text-decoration: underline;
+    transition: all .5s ease;
 }
